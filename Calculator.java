@@ -11,9 +11,13 @@ public class CalculatorWithScanner {
         int b = scanner.nextInt(); 
         
         System.out.println("Addition: " + add(a, b));
+        System.out.println("Subtraction: " + subtract(a, b));
         scanner.close(); 
     }
 
     public static int add(int a, int b) {
         return a + b;
+    }
+     public static int subtract(int a, int b) {
+        return a - b;
     }
