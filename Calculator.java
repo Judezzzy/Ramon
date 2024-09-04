@@ -9,3 +9,11 @@ public class CalculatorWithScanner {
 
         System.out.println("Enter the second number:");
         int b = scanner.nextInt(); 
+        
+        System.out.println("Addition: " + add(a, b));
+        scanner.close(); 
+    }
+
+    public static int add(int a, int b) {
+        return a + b;
+    }
